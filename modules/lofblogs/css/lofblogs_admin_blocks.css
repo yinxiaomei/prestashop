@@ -1,0 +1,65 @@
+.themeinfo, .theme_blocks_list, .theme_info, .theme_info p, .themeinfo_header, #position_view{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.themeinfo {
+    position: relative;
+}
+.themeinfo_header {
+    border-bottom: 1px dotted #CCCCCC;
+    color: darkRed;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+.theme_blocks_list > select {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.theme_info_left {
+    float: left;
+    width: 75%;
+}
+.theme_info_right {
+    float: left;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    width: 20%;
+}
+.theme_info_right img {
+    width: 100%;
+}
+.loading_overlay {
+    background-color: #000000;
+    background-image: url("../images/ajax-loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+.theme-loading {
+    background: url("../images/admin/s_loading.gif") no-repeat top center #fff;
+    background-size: 17px;
+}
+a.blockmap_popup {
+    font-size: 0.8em;
+    color: #ccc;
+    font-style: italic;    
+}
+a.blockmap_popup:hover {
+    color: #2b2b2b;
+}

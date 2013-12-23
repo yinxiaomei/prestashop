@@ -1,0 +1,38 @@
+
+
+#my-account #center_column h1 {margin-bottom:20px}
+
+#my-account #center_column .title_block  {
+	font-weight:normal;
+	 
+	 
+}
+
+
+#my-account .myaccount_lnk_list {list-style-type:none;border: 1px solid #ddd;max-width: 300px;}
+
+
+#my-account .myaccount_lnk_list li a{}
+#my-account .myaccount_lnk_list li:first-child {border-top: none;}
+#my-account .myaccount_lnk_list li:before {
+	width: 1px;
+	background: #ddd;
+	height: 100%;
+	position: absolute;
+	content: "";
+	left: 35px;
+	top: 0;
+}
+#my-account .myaccount_lnk_list li {
+	border-top: 1px solid #DDDDDD;
+    font-size: 13px;
+    line-height: 40px;
+    position: relative;
+}
+#my-account .myaccount_lnk_list img.icon,
+#my-account p img.icon {
+	position:relative; 
+	left:0;
+	margin-right: 15px;
+	margin-left: 3px;
+}

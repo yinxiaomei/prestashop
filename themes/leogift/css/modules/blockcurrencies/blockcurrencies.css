@@ -1,0 +1,21 @@
+/* block top currencies */
+#header_right #currencies_block_top { 
+}
+#header_right #currencies_block_top p { 
+}
+#currencies_block_top ul#first-currencies li { 
+}
+#currencies_block_top ul#first-currencies li.selected { 
+}
+/*languages with jquery*/
+#setCurrency {
+	cursor: pointer; 
+}
+#setCurrency p { 
+}
+#setCurrency p img { 
+}
+#setCurrency .currencies_ul{ 
+}
+#setCurrency .currencies_ul_hover{ 
+} 

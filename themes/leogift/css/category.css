@@ -1,0 +1,62 @@
+h1{margin-bottom:10px;}
+
+.resumecat {
+	font-family: arial;color: #575757;
+}
+
+.content_scene_cat { 
+}
+
+.cat_desc {
+	font-size:12px;
+	line-height:18px;
+}
+.cat_desc p {
+	margin: 0;
+    padding: 10px 5px;
+}
+.cat_desc .lnk_more {
+   padding:0 10px;
+   color:#0088CC; 
+}
+.category-container{margin-bottom: 15px;}
+.category-container .cat_name{
+	margin-bottom: 10px;
+	display: block;
+}
+.category-container .img {
+    border: 3px solid #E9E5E0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+#subcategories {margin-top:15px}
+#subcategories h3 {
+	background: none repeat scroll 0 0 #E38F9B;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.inline_list {
+	list-style-type:none;
+	margin-top:10px;
+}
+.inline_list  li {
+	padding:10px 0;
+	border-bottom:1px dotted #ccc
+}
+.inline_list  li .img {
+	float:left;
+	margin-right:15px
+}
+.inline_list  li img {
+	border:1px solid #e9e9e9;
+}
+.inline_list  li .cat_name {
+	font-weight:bold;
+	font-size:13px
+}

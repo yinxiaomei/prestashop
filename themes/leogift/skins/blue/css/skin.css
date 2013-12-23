@@ -1,0 +1,61 @@
+/* theme color blue
+color: #77b2da
+*/ 
+#search_block_top .button{
+    background-image: url(../images/icon-search.png);
+}
+
+.p-item .ajax_add_to_cart_button,
+[class^="icon-leo-"], [class*=" icon-leo-"]{
+    background-image: url(../images/icon_leo_gift.png)!important;
+}
+.sidebar .block h4, .sidebar .title_block,
+.p-item .btn-add-wishlist,
+table.std th, table.table_block th,
+ul.address li.address_title ,
+.addresses ul.address .address_title,
+#account-creation_form h3,
+#subcategories h3, 
+#order_carrier .title_block,
+#create-account_form h3,
+#authentication #login_form h3,
+#order .delivery_options_address h3, #order-opc .delivery_options_address h3,
+#new_account_form h3,
+#add_address h3, 
+.contact-us [class^="icon-"], .contact-us [class*=" icon-"],
+.customhtml-footer [class^="icon-"], .customhtml-footer [class*=" icon-"]{background-color: #77b2da}
+
+input[type="submit"], input[type="button"], button, .button, .ajax_add_to_cart_button, input.button_mini, input.button_mini_disabled, input.exclusive_mini, input.exclusive_mini_disabled, a.button_mini, a.exclusive_mini, span.button_mini, span.exclusive_mini, input.button_small, input.button_small_disabled, input.exclusive_small, input.exclusive_small_disabled, a.button_small, a.exclusive_small, span.button_small, span.exclusive_small, input.button_disabled, input.exclusive_disabled, span.exclusive, input.button_large, input.button_large_disabled, input.exclusive_large, input.exclusive_large_disabled, a.button_large, a.exclusive_large, span.button_large, span.exclusive_large, span.exclusive_large_disabled{
+    background: -webkit-linear-gradient(center bottom , #77b2da, #61a0cb) repeat scroll 0 0 #77b2da;
+    background: -moz-linear-gradient(center bottom , #77b2da, #61a0cb) repeat scroll 0 0 #77b2da;
+    background: -o-linear-gradient(center bottom , #77b2da, #61a0cb) repeat scroll 0 0 #77b2da;
+    background: -ms-linear-gradient(center bottom , #77b2da, #61a0cb) repeat scroll 0 0 #77b2da;
+    background: linear-gradient(center bottom , #77b2da, #61a0cb) repeat scroll 0 0 #77b2da;
+    background-color: #77b2da; 
+}
+
+.blockleoproducttabs .p-item:hover .center_block{border-color: #77b2da}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a,
+.navbar .nav li a:hover,
+.customhtml3 .block_content > div a,
+h1{color: #77b2da}
+
+#right_column div.block:first-child .title_block{
+    background-color: #f88099
+}
+
+/*menu*/
+
+.navbar-inner{
+    background-image: url(../images/bg-menu.png);
+    background-color: #77b2da;
+    border-color: #77b2da;
+}
+.navbar .nav > li > a{text-shadow: 0 1px 0 #77b2da}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus,
+.navbar .nav > .active, .navbar .nav > li:hover, .navbar .nav > li:focus{
+    background-image: url(../images/bg-menu-hover.png);
+    border-color: #6298bc;
+}
+.dropdown-menu{border-color: #77b2da}

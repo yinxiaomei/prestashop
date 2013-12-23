@@ -1,0 +1,86 @@
+#orderopc  #left_column {display:none}
+.block_box_center .block_box_center {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+}
+#orderopc  #left_column h2 {margin-top:20px}
+#opc_account_choice {padding:0 15px;}
+#opc_account_choice .opc_float {
+	float:left;
+	width:350px
+}
+#opc_account_choice .opc_float ul {margin:0 0 20px 30px}
+#new_account_form  fieldset {  
+}
+#new_account_form  h3 {
+ 
+    padding: 0 10px;
+}
+#center_column #new_account_form p {margin:0; padding:0 0 10px 0;} 
+
+#new_account_form p.radio label {
+	padding-right:10px;
+	 
+}
+#new_account_form p.radio span,
+#new_account_form p.text label,
+#new_account_form p.password label,
+#new_account_form p.select label,
+#new_account_form p.select span,
+#new_account_form p.textarea label {
+	display:inline-block;
+	padding:6px 15px;
+	width:230px;/* 260 */
+	 
+	text-align:right
+}
+#new_account_form p.checkbox label {
+	
+}
+#new_account_form p.text input,
+#new_account_form p.password input,
+#new_account_form p.select input {
+	padding:0 5px;
+	height:22px;
+	width:360px;/* 370 */
+	border:1px solid #e9e9e9;
+	 
+	 
+}
+#new_account_form p.checkbox input {
+	margin-left:260px;
+}
+#new_account_form p.select select {
+	margin-right:10px;
+	border:1px solid #e9e9e9;
+	 
+	 
+}
+#new_account_form p.textarea textarea {
+	height:80px;
+	width:370px;
+	border:1px solid #e9e9e9;
+	 
+	 
+}
+#new_account_form span.form_info,
+#new_account_form span.inline-infos, #new_account_form p.inline-infos { 
+	 
+}
+#new_account_form .id_state, #new_account_form .dni, #new_account_form .postcode {
+	display: none;
+}
+#opc_account_errors {
+	margin: 10px;
+	margin-bottom: 15px;
+}
+#center_column #new_account_form p#opc_account_saved {
+	color: green;
+	float: right;
+	margin-right: 20px;
+	padding: 0;
+}
+#address_invoice_form {
+	padding: 0px;
+}

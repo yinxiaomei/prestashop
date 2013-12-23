@@ -1,0 +1,28 @@
+.lofadvafooter {position: relative;
+	padding-bottom: 25px;}
+
+#footer .block-title,
+#footer h3{color: #fff;}
+
+.lofadvafooter li.link,
+.lofadvafooter li.item{
+	background: url(images/bullet-footer.png) no-repeat 0 10px;
+	padding-left: 10px!important;
+}
+
+.lofadvafooter .title_block{display: none;}
+
+.customhtml-footer{
+	padding: 25px 0;	
+	margin-bottom: 20px;
+}
+
+.customhtml-footer h2{line-height: 1.5}
+.customhtml-footer p{font-size: 14px;font-weight: bold;}
+
+.contact-us [class^="icon-"], .contact-us [class*=" icon-"]{
+	background-color: #EB6477;
+	padding: 4px 6px;
+	font-size: 18px;
+	margin-right: 8px;
+}

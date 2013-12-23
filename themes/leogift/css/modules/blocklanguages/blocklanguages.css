@@ -1,0 +1,22 @@
+/* block top languages */
+#header_right #languages_block_top { 
+}
+#header_right #languages_block_top p { 
+}
+#languages_block_top ul#first-languages li { 
+}
+#languages_block_top ul#first-languages li.selected_language { 
+}
+/*languages with jquery*/
+#countries {
+	cursor: pointer; }
+#countries p { 
+}
+#countries p img { 
+}
+#countries .countries_ul{ 
+}
+#countries .countries_ul_hover{ 
+}
+#first-languages .nav-item a{ 
+} 

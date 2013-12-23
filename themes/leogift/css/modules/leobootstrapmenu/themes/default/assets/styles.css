@@ -1,0 +1,94 @@
+.megamenu .menu-icon{
+	background-position:center center;
+	padding-left:23px;
+	display:block;
+}
+	.megamenu .menu-title{
+		display:block
+	}	
+	.megamenu .menu-desc{
+		display:block;
+		font-size:11px
+	}
+.megamenu  .menu-content{
+	padding:9px
+}
+
+.megamenu .iopen .caret{}
+.megamenu .caret{
+	position:absolute;
+	top:50%;
+	margin-top: 0!important;
+	right:3px;
+}
+.megamenu .level1 .caret{
+	display:none;
+}
+
+
+.megamenu ul{
+	margin:0;
+	padding:0
+}
+.megamenu ul li{
+	list-style:none;
+}
+.dropdown-submenu > a:after {
+ 
+    margin-right: -10px;
+    margin-top: -22px;
+}
+.megamenu .mega-col{
+
+}
+.megamenu .cols1{
+
+}
+.megamenu .cols2{
+	min-width:400px;
+}
+.megamenu .cols3{
+	min-width:600px;
+}
+.fullwidth {
+
+}
+
+.megamenu .mega-group  > a .menu-title {
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+
+
+/*nav menu leo style*/
+.navbar-inner{background: url("bg-menu.png") repeat-x scroll 0 0 #F68195}
+.navbar .nav li a{position: relative;}
+.navbar .nav li a:hover{color: #f87385;}
+.navbar .nav > li > a{font-family: 'Fjalla One',sans-serif;font-size: 16px;}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover{color: #fff!important}
+.navbar .nav > li{border-color: transparent; border-width: 0 1px; border-style: solid;}
+.navbar .nav > .active,
+.navbar .nav > li:hover,
+.navbar .nav > li:focus{border-color: #D7606F; background: url("bg-menu-hover.png") repeat-x scroll 0 0 transparent}
+ 
+.megamenu .mega-group > a .caret {
+    display: none;
+}
+.dropdown-submenu > a:after {
+    display: none;
+}
+.mega-group .dropdown-mega li{}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+	background: url("bg-menu-hover.png") repeat-x scroll 0 0 transparent;
+    border-color: #D7606F;
+    box-shadow: none;
+}
+li.has-style.dropdown-submenu > a.dropdown-toggle .menu-title,
+.dropdown-menu li > a .menu-title{
+	background: url("li-menu.png") no-repeat scroll 0 center transparent;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;	
+}
+li.dropdown-submenu > a.dropdown-toggle .menu-title{background: transparent; padding-left: 0}

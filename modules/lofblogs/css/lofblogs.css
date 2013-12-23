@@ -1,0 +1,289 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+select {
+    width: 200px;
+}
+.language_flags {
+    background: none repeat scroll 0 0 lightBlue;
+    border: medium none;
+    bottom: 10px;
+    box-shadow: 1px 2px 3px #000000;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    width: 110px;
+    z-index: 10;
+}
+.language_flags > p{
+    color: orangered;
+    font-style: italic;
+    margin: 0 0 10px;
+    padding: 0;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+.language_flags img {
+    margin: 2px 1px;
+    padding: 0;
+}
+.language_flags img:hover {
+    box-shadow: 1px 1px 3px #000000;
+}
+.displayed_flag img {
+    padding: 0;
+    box-shadow: 1px 1px 2px #000;
+}
+.displayed_flag img:hover {
+    box-shadow: 1px 1px 10px #000;
+}
+
+.lof-back-office-content fieldset {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 0;
+    min-height: 480px;
+    padding: 0;
+}
+#lofcontent_panel, .lofcontent_mainview, .lofcontent-backoffice-line, .lofcontent-right-column {
+    float: left;
+}
+#lofcontent_panel {
+    background-color: #F2F2F2;
+    color: #2B2B2B;
+    width: 15%;
+}
+
+
+.lofcontent_mainview {
+    background-color: #EBEDF4;
+    padding-bottom: 10px;
+    width: 85%;
+}
+.lofcontent-backoffice-line {
+    width: 100%;
+    margin: 2px 0;
+    position: relative;
+}
+.lofcontent-backoffice-line label  {
+    float: left;
+    width: 15%;
+}
+.lofcontent-right-column {
+    width: 84%;
+}
+h3.option_group_header {
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    margin: 15px 0;
+    padding: 5px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    width: 100%;
+}
+h3.option_group_header span {
+    color: orangered;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none;
+}
+.lofcontent_button {
+    background-color: #F8F8F8;
+    border: 1px outset #CCCCCC;
+    color: #2B2B2B;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.lofcontent_button:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 5px #ddd;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+
+.image_preview {
+    width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.image_preview img {
+    width: 100%;
+}
+.lofc_option_prefix {
+    color: #ddd;
+}
+.offie-header h3 {
+    float: left;
+    width: 50%;    
+}
+.offie-header .main_button {
+    float: right;
+    margin-right: 3px;
+    text-align: right;
+    width: 30%;
+}
+a.lofcontent_button {
+    padding: 4px !important;
+}
+/* CONTROL PANEL BLOCK */
+
+li.selected_view {
+    background-color: #EBEDF4 !important;
+    color: darkRed !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+#lofcontent_cpanel ul li {
+    border-bottom: 1px solid #CCCCCC;
+    color: gray;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+/* MAIN TAB STYPE */
+h3.lofcontent_admin_header {
+    border-bottom: 1px dotted #DDDDDD;
+    color: darkRed;
+    margin: 15px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+h3.lofcontent_admin_header span {
+    font-size: 0.8em;
+    text-transform: none;
+    font-style: italic;
+    color: orangered;
+}
+
+/* ___________ CONTROL PANEL ___________ */
+.lofcontent_panel h3 {
+    color: #2B2B2B;
+    font-size: 11px;
+    margin: 0;
+    padding-left: 10px;
+    text-transform: uppercase;   
+}
+
+.lofcontent_panel {
+    background-color: #EBEDF4;
+    border: 1px solid #C2C4D9;
+    float: left;
+    padding: 10px;
+    width: 98%;
+}
+ul.panel_tabs_list li {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+}
+
+ul.panel_tabs_list li:hover {
+    border: 2px dotted #e2e2e2;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;    
+}
+ul.panel_tabs_list li a {
+    color: #333333;
+    float: left;
+    font-size: 11px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+ul.panel_tabs_list li img {
+    width: 32px;
+}
+ul.panel_tabs_list li span {
+    float: left;
+    font-weight: normal;
+    margin: 10px 0 5px;
+    width: 100%;
+}
+.panel_tabs_list {
+    float: left;
+    min-height: 200px;
+    width: 99%;
+}
+
+#lofcontent_blockmanger {
+    width: 100% !important;
+
+}
+
+.lofcontent_copyright {
+    color: #999999;
+    float: left;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.update_notice {
+    background: url("../images/admin/update.png") no-repeat scroll 5px center lightBlue;
+    border: 2px solid orange;
+    font-style: italic;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+    padding-left: 40px;
+}
+
+.update_notice a {
+    color: darkred;
+}
+
+.update_notice span {
+    color: orangered;
+}
+
+.lofblogs_bolinks {
+    color: #2B2B2B;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.lofblogs_bolinks:hover {
+    text-shadow: 1px 1px 13px #2b2b2b;
+    color: lightcoral;
+    -moz-transition-duration: 1s;
+    font-weight: bold;
+}
+.toolbarBox .pageTitle h3 {
+    font-size: 1.6em!important;
+}
+
+/* Style for process icons  */
+.toolbarBox .process-icon-addchild {
+    background-image: url("../images/admin/process/newchild.png");
+}
+.toolbarBox .process-icon-addblog {
+    background-image: url("../images/admin/process/addblog.png");
+}
+.toolbarBox .process-icon-viewblogs {
+    background-image: url("../images/admin/process/viewblogs.png");
+}
+.toolbarBox .process-icon-save {
+    background-image: url("../images/admin/process/save.png") !important;
+}
+.toolbarBox .process-icon-back {
+    background-image: url("../images/admin/process/back.png") !important;
+}

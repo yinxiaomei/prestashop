@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>lofminigallery</name>
+            <displayName><![CDATA[Lof Mini Gallery Module]]></displayName>
+            <version><![CDATA[1.0]]></version>
+            <description><![CDATA[display product images or some images you want in a nice template]]></description>
+            <author><![CDATA[]]></author>
+            <tab><![CDATA[LandOfCoder]]></tab>
+	<confirmUninstall>OooP ! do u realy wanna to uninstall it?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

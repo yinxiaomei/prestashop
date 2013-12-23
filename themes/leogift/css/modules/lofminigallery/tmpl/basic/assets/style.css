@@ -1,0 +1,49 @@
+/**
+* Styles for basic layout
+*/
+.lof_thumbnail_container {
+    float: left;
+}
+.lof_thumbnail_container h4 {
+    color: #2B2B2B;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+ul.lof_thumblist {
+    float: left;
+    padding: 0px;
+}
+ul.lof_thumblist li a{display: block;}
+ul.lof_thumblist li a:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 0; 
+    opacity: 0.2;
+    filter:alpha(opacity=20);
+}
+ul.lof_thumblist li {
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.lof_thumbnail_container .block_content {
+    float: left;
+}
+ul.lof_thumblist img { 
+}
+
+/* THEME STYLE */
+
+/* ---------- Light ------------- */
+.thumb_light ul.lof_thumblist li {
+   padding: 0!important;
+}
+.thumb_light ul.lof_thumblist img { 
+}

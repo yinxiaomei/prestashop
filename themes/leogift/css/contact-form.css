@@ -1,0 +1,37 @@
+
+	#contact  fieldset {
+	}
+		#contact  h3 { 
+		    padding: 0 10px;
+		    text-transform: capitalize;
+		}
+		#contact #center_column p {margin:0; padding:0 0 10px 0;}
+		#contact #center_column p.desc_contact { text-align: center; padding-left: 10px; padding-right: 10px; }
+		
+		#contact p.text label,
+		#contact p.select label,
+		#contact p.select span,
+		#contact p.textarea label {
+			display:inline-block;
+			padding:6px 15px;
+			width:150px;/* 180 */
+			 
+			text-align:right
+		}
+		#contact p.textarea label {vertical-align:top}
+		#contact p.text input,
+		#contact p.select input {/* 270 */
+			 
+		}
+		#contact p.select select {
+			margin-right:10px;
+			 
+		}
+		#contact p.textarea textarea {
+			height:80px;
+			 
+		}
+		#contact p.submit input {margin-left:185px;}
+#message {
+		height:80px;
+	}

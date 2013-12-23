@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <block name="block1">
+        <theme name="theme1" title="theme 1 title" />
+        <theme name="theme2" title="theme 2 title" />
+        <theme name="theme3" title="theme 3 title" />
+    </block>
+    <block name="block2">
+        <theme name="theme1" title="theme 1 title" />
+        <theme name="theme2" title="theme 2 title" />
+        <theme name="theme3" title="theme 3 title" />
+    </block>
+</root>

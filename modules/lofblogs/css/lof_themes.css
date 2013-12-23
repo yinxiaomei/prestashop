@@ -1,0 +1,60 @@
+h3.lofcontent_theme_item_header {
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px;
+}
+
+.lofcontent_theme_wrapper {
+    background-color: #e2e2e2;
+    padding: 5px;
+}
+.theme_uninstaller {
+    margin-top: 10px;
+}
+.lofcontent_theme_item {
+    background-color: #F1F1F1;
+    border: 1px outset #FFFFFF;
+    margin: 5px 0;
+    padding: 5px;
+    position: relative;
+}
+.lofcontent_theme_item .theme_title {
+    border-bottom: 1px solid #DDDDDD;
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+}
+.lofcontent_theme_item .theme_title span {
+    color: #555555;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.theme_copyright span {
+    font-weight: bold;
+}
+.lofcontent_theme_button {
+    background: url("../images/admin/delete_theme.png") no-repeat scroll left top transparent;
+    font-style: italic;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 20px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+#disable_button {
+    background: none !important;
+}
+.lofcontent_theme_item p {
+    color: #2b2b2b;
+    font-style: italic;
+}
+
+.lofcontent_errors {
+    background-color: pink;
+    border: 2px solid #E2E2E2;
+    margin-bottom: 15px;
+    padding: 5px;
+}

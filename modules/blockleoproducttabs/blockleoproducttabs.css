@@ -1,0 +1,29 @@
+/* Block specials */
+.blockleoproducttabs .carousel-control{ 
+}
+
+.blockleoproducttabs .p-item{ margin-bottom: 10px;}
+.blockleoproducttabs .p-item .right_block{
+	float: left;
+    width: 59%;
+}
+.blockleoproducttabs .p-item .center_block{
+	float: left;
+    margin-right: 3%;
+    width: 98px;
+    height: auto;
+    border-radius: 0 0 0 0;
+}
+.blockleoproducttabs .p-item .center_block:before{display: none;}
+
+.blockleoproducttabs .p-item:hover .center_block{
+	border-color: #e38f9b;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.blockleoproducttabs.block_box_center{padding-bottom: 0;padding-top: 10px;overflow: inherit;}
+.blockleoproducttabs .s_title_block{margin-top: 0; margin-bottom: 5px;}
+.blockleoproducttabs .p-item .price{ margin: 5px 0;}

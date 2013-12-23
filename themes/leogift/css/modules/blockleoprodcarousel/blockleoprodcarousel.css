@@ -1,0 +1,13 @@
+/* Block specials */
+
+ #leoproductcarousel .carousel-control{ 
+ 	top: -60px;
+ 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ 	filter: alpha(opacity=100);
+ 	opacity: 1;
+}
+#leoproductcarousel .carousel-control.left{left: -15px !important;}
+#leoproductcarousel .carousel-control.right{right: -15px !important;}
+.blockleoprodcarousel h1{text-align: center; color: #6e6662;}
+.blockleoprodcarousel h3{text-align: center; color: #6e6662;line-height:10px}
+.hideone{display:none;}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <configuration>     
+        <fieldset name="global" label="Global Option">
+            <field type="theme" name="template" default="default" label="Theme" />
+            <field type="text" name="title" default="Articles categories" label="Title" translate="1" />
+            <field type="list" name="showTitle" default="1" label="Show/hide title" >
+                <opt value="1" text="Show" />
+                <opt value="0" text="Hide" />
+            </field>
+            
+            <field type="text" name="count" default="0" label="Item Count"  />    
+            <field type="list" name="ordering" default="c.id_lofblogs_category DESC" label="List Ordering" >
+                <opt value="c.id_lofblogs_category DESC" text="Lastest" />
+                <opt value="c.id_lofblogs_category" text="Oldest" />
+                <opt value="c.title DESC" text="Title Alphabete (Descending)" />
+                <opt value="c.title" text="Title Alphabete (Ascending)" />
+                <opt value="c.position DESC" text="Position (Descending)" />
+                <opt value="c.position" text="Position (Ascending)" />
+            </field>            
+            
+        </fieldset>         
+    </configuration>
+</root>

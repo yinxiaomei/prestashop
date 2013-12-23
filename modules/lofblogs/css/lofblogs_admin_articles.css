@@ -1,0 +1,196 @@
+
+/* INFOMATION BLOCK */
+#lof_article_info ul {
+    float: left;
+    font-size: 11px;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+}
+
+#update_button {
+    width: 100%;
+    text-align: center;
+}
+
+.featured_item {
+    left: 10px;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+
+/* IMAGES & GALLERY tab*/
+#add_field_btn {
+    cursor: pointer;
+}
+#upload_list {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-bottom: 3px;
+}
+.gallery_image li {
+    border: 1px solid lightyellow;
+    box-shadow: 1px 2px 5px #000000;
+    float: left;
+    height: 100px;
+    margin: 3px;
+    overflow: hidden;
+    vertical-align: middle !important;
+    width: 150px;
+    position: relative;
+}
+.gallery_image li img.gallery_img_thumb {
+    width: 100%;
+    min-height: 100%;
+}
+.gallery_upload_field {
+    background: none repeat scroll 0 0 #F1F1F1 !important;
+    border: 1px outset #F1F1F1 !important;
+    height: 25px;
+}
+li.lofcontent_gaimg_container {
+    position: relative;
+}
+li.lofcontent_gaimg_container span {
+    background-color: lightBlue;
+    border-bottom: 1px solid lightgoldenRodYellow;
+    color: #2b2b2b;
+    float: left;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+.deleted_img_label {
+    background: none repeat scroll 0 0 #2B2B2B;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: lightgoldenRodYellow;
+    display: none;
+    font-style: italic;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    width: 100%;
+}
+.image_for_remove .deleted_img_label {
+    display: block;
+}
+
+.lofcontent_gaimg_container span input {
+    cursor: pointer;
+}
+
+.lofcontent-backoffice-line fieldset {
+    border: 1px outset #FFFFFF;
+    margin-top: 10px;
+    min-height: 0;
+    padding: 5px;
+    width: 50%;
+}
+.lofcontent-backoffice-line fieldset legend {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#upload_list li span {
+    color: darkblue;
+    font-size: 11px;
+    font-style: italic;
+}
+#upload_list li {
+    border-bottom: 1px dotted #CCCCCC;
+    margin: 2px 0;
+    padding-bottom: 5px;
+}
+
+/* ----------------- RELATED PRODUCT --------------*/
+
+#view_container {
+    float: left;
+    position: relative;    
+    min-height: 200px;
+    min-width: 500px;
+}
+#loading_overlay {
+    background-color: #000000;
+    display: none;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#loading_image {
+    display: none;
+    left: 40%;
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+}
+
+.product-loading #loading_image, .product-loading #loading_overlay {
+    display: block;
+}
+
+#product_listview, #related_products {
+    float: left;
+    width: 100%;
+}
+#related_products {
+    min-height: 50px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.product_item {
+    border: 1px outset #DDDDDD;
+    float: left;
+    height: 130px;
+    margin: 5px;
+    overflow: hidden;
+    width: 115px;
+    position: relative;
+}
+.product_item:hover .deleted_img_label {
+    display: block;
+}
+.product_item img, .product_item p {
+    float: left;
+    width: 100%;
+}
+.product_item p {
+    background-color: #E2E2E2;
+    border-bottom: 1px solid #DDDDDD;
+    color: #2B2B2B;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 0;
+    text-align: center;
+}
+.product_item .deleted_img_label {
+    font-size: 0.8em;
+    top: 40%;
+    cursor: pointer;
+}
+#product_listview .product_item > p {
+    font-size: 0.7em;
+    font-style: italic;
+}
+#product_listview .product_item {
+    height: 87px;
+    width: 69px;
+}
+
+/* GLOBAL */

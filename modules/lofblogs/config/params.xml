@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <configuration>
+        <fieldset name="global" label="Global Option">    
+            <field type="textarea" name="rateFinish" cols="70" rows="3" label="Rating success message " default="Thank you for rating" translate="1" />
+            <field type="textarea" name="rateError" cols="70" rows="5" label="Message when rating duplicate from one ip" default="You have already voted for this article" translate="1" />                           
+        </fieldset>
+        <fieldset name="media" label="Media Option">
+            <field type="text" name="primary_width" default="600" label="Primary width" />
+            <field type="text" name="primary_height" default="400" label="Primary height" />     
+            <field type="text" name="thumb_width" default="150" label="Thumbnail width" />
+            <field type="text" name="thumb_height" default="100" label="Thumbnail height" />
+        </fieldset>      
+        <fieldset name="theme" label="Theme Option">
+            <field type="theme" name="template" default="clean" label="Theme" />
+            
+            <field type="header" default="Aritcle Detail " description="Display a single article by your way" label="" />
+            <field type="list" name="showSocial" default="1" label="Show Social Butons" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>            
+            <field type="list" name="social_style" default="default" label="Social Button style" >
+                <opt value="default" text="Default" />
+                <opt value="large" text="Large Icon" />
+                <opt value="details" text="Details" />
+            </field>   
+            <field type="list" name="showRating" default="1" label="Show Rating" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>               
+            <field type="list" name="showInfo" default="1" label="Show Article Info" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>   
+            <field type="list" name="showTags" default="1" label="Show Tags" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>       
+            <field type="list" name="showProduct" default="1" label="Show Related Products" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>
+            <field type="list" name="showGallery" default="1" label="Show image gallery" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>             
+            <field type="text" name="content_img_width" default="150px" label="Image Width" description="Fixed width when display content in front-end" />
+            <field type="list" name="imgAlign" default="left" label="Images Align" >
+                <opt value="left" text="Left" />
+                <opt value="right" text="Right" />
+                <opt value="center" text="Center" />
+            </field>     
+            
+            <field type="header" default="Aritcle Listing" description="Display list of articles" label="" />
+            <field type="text" name="itemsLimit" default="10" label="Number of aticles in one page"  />            
+            <field type="text" name="introLimit" default="200" label="Introtext Limit"  />
+            <field type="list" name="aOrdering" default="date_upd, a.id_lofblogs_publication" label="Article Order" >
+                <opt value="a.date_upd" text="Lastest - base on modify date" />
+                <opt value="a.date_add" text="Lastest - base on create date" />
+                <opt value="hits" text="Most view" />
+                <opt value="rating" text="Rating" />
+            </field> 
+            <field type="list" name="showCatImage" default="1" label="Show Category Image" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>             
+            <field type="list" name="showRatingList" default="1" label="Show Rating" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>               
+            <field type="list" name="showInfoList" default="1" label="Show Article Info" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>  
+            
+            <field type="header" default="Rss feed" description="Rss feed settings" label="" />
+            <field type="text" name="itemsFeedLimit" default="10" label="Rss feed limit"  />
+            <field type="text" name="rssIntro" default="200" label="Rss Introtext Limit"  />
+            <field type="list" name="rssOrdering" default="date_upd, a.id_lofblogs_publication" label="Item Order" >
+                <opt value="a.date_upd" text="Lastest - base on modify date" />
+                <opt value="a.date_add" text="Lastest - base on create date" />
+                <opt value="hits" text="Most view" />
+                <opt value="rating" text="Rating" />
+            </field>             
+            
+        </fieldset> 
+        <fieldset name="comment" label="Comment Options">
+            <field type="list" name="showComment" default="1" label="Show comment" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />
+            </field>      
+            <field type="list" name="showCaptcha" default="1" label="Use Captcha" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />                
+            </field>            
+            <field type="text" name="cmLimit" default="10" label="Comments limit" />
+            <field type="list" name="showPagi" default="1" label="Show Pagination" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />                
+            </field>
+            <field type="list" name="cmPagiTheme" default="black" label="Pagination Theme" >
+                <opt value="black" text="Black" />
+                <opt value="green" text="Green" />
+                <opt value="red" text="Red" />
+            </field>              
+            <field type="text" name="cmEachPage" default="5" label="Number of comments in one Page" />           
+            <field type="group" name="ipt_mem" default="" label="Allowed comment without verify" multi="1" />
+            <field type="textarea" name="cmPublish" cols="70" rows="3" label="When sumbmit a published comment" default="Thank you for leaving comment" translate="1" />
+            <field type="textarea" name="cmUnpublish" cols="70" rows="5" label="When sumbmit an Unpublished comment" default="Thank you for leaving comment, but your comment need verifying by administrator before it is published" translate="1" />
+        </fieldset>  
+        <fieldset name="uninstall" label="Uninstall Options">
+            <field type="list" name="removeDb" default="0" label="Remove data when uninstall module" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />                
+            </field> 
+            <field type="list" name="removeConfig" default="0" label="Remove configuration when uninstall module" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />                
+            </field>
+            <field type="list" name="removeImages" default="0" label="Remove images when uninstall module" >
+                <opt value="1" text="Yes" />
+                <opt value="0" text="No" />                
+            </field>               
+        </fieldset>       
+    </configuration>
+</root>

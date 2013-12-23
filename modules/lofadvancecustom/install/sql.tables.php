@@ -1,0 +1,163 @@
+<?php
+$query = " 
+CREATE TABLE IF NOT EXISTS `_DB_PREFIX_loffc_block` (
+  `id_loffc_block` int(11) NOT NULL AUTO_INCREMENT,
+  `width` float(10,2) NOT NULL,
+  `show_title` tinyint(1) NOT NULL,
+  `id_position` tinyint(2) NOT NULL,
+  PRIMARY KEY (`id_loffc_block`)
+) ENGINE=_MYSQL_ENGINE_  DEFAULT CHARSET=utf8 AUTO_INCREMENT=58 ;
+
+INSERT INTO `_DB_PREFIX_loffc_block` (`id_loffc_block`, `width`, `show_title`, `id_position`) VALUES
+(1, 0.00, 0, 1),
+(46, 22.00, 1, 2),
+(54, 0.00, 1, 2),
+(55, 0.00, 1, 2),
+(56, 0.00, 1, 2),
+(57, 22.00, 1, 2);
+
+CREATE TABLE IF NOT EXISTS `_DB_PREFIX_loffc_block_item` (
+  `id_loffc_block_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_loffc_block` int(11) NOT NULL,
+  `type` varchar(25) NOT NULL,
+  `link` varchar(2000) NOT NULL,
+  `linktype` varchar(25) NOT NULL,
+  `link_content` varchar(2000) NOT NULL,
+  `module_name` varchar(100) NOT NULL,
+  `hook_name` varchar(100) NOT NULL,
+  `latitude` varchar(25) NOT NULL,
+  `longitude` varchar(25) NOT NULL,
+  `addthis` tinyint(1) NOT NULL,
+  `show_title` tinyint(1) NOT NULL DEFAULT '1',
+  `target` varchar(20) NOT NULL DEFAULT '_self',
+  `position` int(11) NOT NULL,
+  PRIMARY KEY (`id_loffc_block_item`)
+) ENGINE=_MYSQL_ENGINE_  DEFAULT CHARSET=utf8 AUTO_INCREMENT=87 ;
+
+INSERT INTO `_DB_PREFIX_loffc_block_item` (`id_loffc_block_item`, `id_loffc_block`, `type`, `link`, `linktype`, `link_content`, `module_name`, `hook_name`, `latitude`, `longitude`, `addthis`, `show_title`, `target`, `position`) VALUES
+(5, 1, 'custom_html', '', '', '', '', '', '', '', 0, 0, '', 0),
+(49, 46, 'module', '', '', '', 'lofminigallery', 'displayfooter', '', '', 0, 0, '', 0),
+(72, 54, 'module', '', '', '', 'blockmyaccountfooter', 'displayfooter', '', '', 0, 0, '', 0),
+(77, 55, 'module', '', '', '', 'blockcategories', 'displayfooter', '', '', 0, 0, '', 0),
+(82, 56, 'module', '', '', '', 'blockcms', 'displayfooter', '', '', 0, 0, '', 0),
+(85, 57, 'module', '', '', '', 'blocknewsletter', 'displayfooter', '', '', 0, 0, '', 0),
+(86, 57, 'custom_html', '', '', '', '', '', '', '', 0, 0, '', 0);
+
+CREATE TABLE IF NOT EXISTS `_DB_PREFIX_loffc_block_item_lang` (
+  `id_loffc_block_item` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `text` text NOT NULL,
+  PRIMARY KEY (`id_loffc_block_item`,`id_lang`)
+) ENGINE=_MYSQL_ENGINE_ DEFAULT CHARSET=utf8;
+
+INSERT INTO `_DB_PREFIX_loffc_block_item_lang` (`id_loffc_block_item`, `id_lang`, `title`, `text`) VALUES
+(0, 1, 'item 1', ''),
+(0, 2, 'item 1', ''),
+(0, 3, 'item 1', ''),
+(0, 4, 'item 1', ''),
+(0, 5, 'item 1', ''),
+(0, 6, 'item 1', ''),
+(5, 1, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 2, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 3, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 4, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 5, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 6, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(5, 7, 'custom HTML', '<div class=\"customhtml-footer\">\r\n<div class=\"row-fluid\">\r\n<div class=\"span3\"><em class=\"icon-truck\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lightbulb\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-gift\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n<div class=\"span3\"><em class=\"icon-lock\"></em>\r\n<div class=\"content-custom\">\r\n<h2 class=\"block-title\">Featured product</h2>\r\n<p>Docnec it amet</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>'),
+(49, 1, 'Gallery', ''),
+(49, 2, 'Gallery', ''),
+(49, 3, 'Gallery', ''),
+(49, 4, 'Gallery', ''),
+(49, 5, 'Gallery', ''),
+(49, 6, 'Gallery', ''),
+(49, 7, 'Gallery', ''),
+(72, 1, 'My Account', ''),
+(72, 2, 'My Account', ''),
+(72, 3, 'My Account', ''),
+(72, 4, 'My Account', ''),
+(72, 5, 'My Account', ''),
+(72, 6, 'My Account', ''),
+(72, 7, 'My Account', ''),
+(77, 1, 'Category', ''),
+(77, 2, 'Category', ''),
+(77, 3, 'Category', ''),
+(77, 4, 'Category', ''),
+(77, 5, 'Category', ''),
+(77, 6, 'Category', ''),
+(77, 7, 'Category', ''),
+(82, 1, 'Infomation', ''),
+(82, 2, 'Infomation', ''),
+(82, 3, 'Infomation', ''),
+(82, 4, 'Infomation', ''),
+(82, 5, 'Infomation', ''),
+(82, 6, 'Infomation', ''),
+(82, 7, 'Infomation', ''),
+(85, 1, 'Newsletter', ''),
+(85, 2, 'Newsletter', ''),
+(85, 3, 'Newsletter', ''),
+(85, 4, 'Newsletter', ''),
+(85, 5, 'Newsletter', ''),
+(85, 6, 'Newsletter', ''),
+(85, 7, 'Newsletter', ''),
+(86, 1, 'custom', '<div class=\"contact-us\">\r\n<h2 class=\"block-title\">Contact us</h2>\r\n<p>1234 - Duis Ipsum Street Bandit Tringilla</p>\r\n<h3><em class=\"icon-phone\"></em> 123 456 789</h3>\r\n</div>'),
+(86, 2, 'custom', ''),
+(86, 3, 'custom', ''),
+(86, 4, 'custom', ''),
+(86, 5, 'custom', ''),
+(86, 6, 'custom', ''),
+(86, 7, 'custom', '');
+
+CREATE TABLE IF NOT EXISTS `_DB_PREFIX_loffc_block_lang` (
+  `id_loffc_block` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  PRIMARY KEY (`id_loffc_block`,`id_lang`)
+) ENGINE=_MYSQL_ENGINE_ DEFAULT CHARSET=utf8;
+
+INSERT INTO `_DB_PREFIX_loffc_block_lang` (`id_loffc_block`, `id_lang`, `title`) VALUES
+(0, 0, ''),
+(1, 1, 'custom HTML'),
+(1, 2, 'custom HTML'),
+(1, 3, 'custom HTML'),
+(1, 4, 'custom HTML'),
+(1, 5, 'custom HTML'),
+(1, 6, 'custom HTML'),
+(1, 7, 'custom HTML'),
+(46, 1, 'Gallery'),
+(46, 2, 'Gallery'),
+(46, 3, 'Gallery'),
+(46, 4, 'Gallery'),
+(46, 5, 'Gallery'),
+(46, 6, 'Gallery'),
+(46, 7, 'Gallery'),
+(54, 1, 'My Account'),
+(54, 2, 'My Account'),
+(54, 3, 'My Account'),
+(54, 4, 'My Account'),
+(54, 5, 'My Account'),
+(54, 6, 'My Account'),
+(54, 7, 'My Account'),
+(55, 1, 'Category'),
+(55, 2, 'Category'),
+(55, 3, 'Category'),
+(55, 4, 'Category'),
+(55, 5, 'Category'),
+(55, 6, 'Category'),
+(55, 7, 'Category'),
+(56, 1, 'Infomation'),
+(56, 2, 'Infomation'),
+(56, 3, 'Infomation'),
+(56, 4, 'Infomation'),
+(56, 5, 'Infomation'),
+(56, 6, 'Infomation'),
+(56, 7, 'Infomation'),
+(57, 1, 'Newsletter'),
+(57, 2, 'Newsletter'),
+(57, 3, 'Newsletter'),
+(57, 4, 'Newsletter'),
+(57, 5, 'Newsletter'),
+(57, 6, 'Newsletter'),
+(57, 7, 'Newsletter');
+";
+?>

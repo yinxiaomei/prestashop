@@ -1,0 +1,2 @@
+ADD IMAGE - Exist primary D:\landofcoder\xampp\htdocs\prestashop\leo_gifts_1550\prestashop/img/lofblogs/articles/leo_gifts_k2_05.jpg
+ADD IMAGE - Exist thumb D:\landofcoder\xampp\htdocs\prestashop\leo_gifts_1550\prestashop/img/lofblogs/thumbs/leo_gifts_k2_05.jpg

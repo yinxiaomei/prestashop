@@ -1,0 +1,27 @@
+.lofcontentmenu-wrapper  li {border-bottom:1px dotted #ccc}
+    .lofcontentmenu-wrapper  li.last { border:none;}
+        .lofcontentmenu-wrapper  li a {
+            display:block;
+            padding:7px 11px 5px 22px;
+            color:#333;
+            background:url(img/arrow_right_2.png) no-repeat 10px 10px transparent
+        }
+        
+    .lofcontentmenu-wrapper  li ul {margin-left:40px}
+        .lofcontentmenu-wrapper  li ul li {border:none}
+            .lofcontentmenu-wrapper  li ul li a {
+                padding-left:0;
+                background:none
+            }
+        
+.lofcontentmenu-wrapper li .OPEN,
+.lofcontentmenu-wrapper li .CLOSE {
+    display:block;
+    float:right;
+    margin:10px 10px 0;
+    height:9px;
+    width:9px;
+    background:url(img/icon/open-close.png) no-repeat 0 -9px;
+    cursor:pointer
+}
+.lofcontentmenu-wrapper li .CLOSE {background-position:0 0}

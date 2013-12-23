@@ -1,0 +1,30 @@
+/* DEFAULT STYLES */
+
+.tabs-nav {
+    background-color: #2B2B2B;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.tabs-nav li a {
+    color: #E2E2E2;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.dvc-tab {
+    background-color: #f9f9f9;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.tabs-selected a {
+    background-color: #F9F9F9;
+    color: orangered !important;
+    font-weight: bold;
+}

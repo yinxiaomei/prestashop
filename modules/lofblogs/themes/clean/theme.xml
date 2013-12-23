@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <info>
+        <name>Clean Theme</name>
+        <author>LandOfCoder</author>
+        <date>15.06.2012</date>
+        <blockdesc>please see image to use block position easily !</blockdesc>
+        <blockmap>assets/images/blocksmap.png</blockmap>
+        <description>You can visit landofcoder.com to get more themes</description>
+        <version>1.0</version>
+    </info>
+    <blocks>
+        <block>bottom</block>
+        <block>top</block>
+    </blocks>
+</root>

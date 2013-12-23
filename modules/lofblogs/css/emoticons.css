@@ -1,0 +1,75 @@
+#content {
+    float: left;
+}
+
+#emoticons_container {
+    background-color: #F8F8F8;
+    float: left;
+    padding-left: 4%;
+    padding-top: 30px;
+    width: 96%;
+}
+
+.editable_emotions {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 24%;
+}
+
+.editable_emotions .img_preview {
+    float: left;
+    width: 50px;
+}
+#panel_bar {
+    background-color: #E2E2E2;
+    float: left;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.emoticon_upload {
+    float: left;
+    width: 100%;
+    background-color: #E2E2E2;
+}
+.emoticon_upload h3 {
+    background-color: #2B2B2B;
+    border-bottom: 1px solid #CCCCCC;
+    color: #E2E2E2;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 5px;
+    padding: 0 0 0 5px;
+}
+.emoticon_upload_wrapper {
+    padding: 10px 0 20px 5px;
+}
+.check_remove {
+    background: url('../images/admin/checkbox.png') no-repeat left center transparent;
+    color: #E2E2E2;
+    cursor: pointer;
+    float: left;
+    font-size: 0.8em;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding-left: 20px;
+    width: 85px;
+}
+.editable_emotions input[type="checkbox"] {
+    display: none;  
+}
+.editable_emotions input {
+    float: left;
+}
+.image_for_remove {
+    background-image: url('../images/admin/checkbox_checked.png');
+    color: darkred;
+    font-size: 1em;    
+}

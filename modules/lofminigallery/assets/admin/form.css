@@ -1,0 +1,648 @@
+@CHARSET "ISO-8859-1";
+
+* html .clearfix {
+
+    height:1%;
+
+}
+
+.clearfix {
+
+    display:inline-block;
+
+}
+
+html[xmlns] .clearfix {
+
+    display:block;
+
+}
+.lof-back-office select {
+    width: 140px;
+}
+.clearfix:after {
+
+    clear:both;
+
+    content:".";
+
+    display:block;
+
+    height:0;
+
+    visibility:hidden;
+
+}
+
+#lofform fieldset{
+    padding: 0;
+}
+
+.lof-legend{
+
+    background: #FF0080 !important;
+
+    color: #FFFFFF;
+
+    font-weight: bold !important;
+
+}
+.full_height {
+    height: 100%;
+}
+.property-container {
+    float: left;
+    height: 240px;
+}
+.textarea-input {
+    width: 100%;
+}
+ul.hasLine > li {
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.lof_config_wrrapper{
+
+    position: relative;
+
+}
+
+.lof_config_wrrapper ul,.lof_config_wrrapper li{
+    list-style: none outside none;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 5px;
+    padding: 0 !important;
+}
+
+.lof_config_wrrapper .lof-config-header{
+
+    color:#025A8D !important;
+
+    background:none repeat scroll 0 0 #F6F6F6;
+
+    height: 22px;
+
+    line-height: 22px;
+
+    border-bottom:1px; 
+
+}
+
+.lof_config_wrrapper .lof-config-header span{
+
+    margin: 10px;
+
+    font-weight: bold;
+
+}
+
+.lof_config_wrrapper ul > li i{
+
+    font-size:10px;
+
+    line-height: 10px;	
+
+}
+
+.lof_config_wrrapper ul > li.row{
+
+    background-color:#FFFFFF;
+
+    height:30px;
+
+    background:none;
+
+    line-height:30px;
+
+    clear:both;
+
+
+
+}
+
+.lof_config_wrrapper ul li.row:hover{
+
+    background-color:#E8F6FE;
+
+}
+
+.lof_config_wrrapper .row1{
+
+    background-color:#F0F0F0;
+
+    height:30px;	
+
+    line-height:30px;
+
+}
+
+.lof_config_wrrapper label{
+
+    float: none;
+}
+.lof_config_wrrapper ul li ul li{
+    float: left;
+}
+.lof_config_wrrapper .lof-config-left{
+    width: 40%;
+    font-size: 12px!important;
+}
+.lof_config_wrrapper .lof-config-left LABEL{
+    margin:10px 0;
+}
+.lof_config_wrrapper .lof-config-right{
+    width: 60%;
+    font-size: 13px!important;
+}
+.lof_config_wrrapper .lof-config-right LABEL{
+    font-weight: normal;
+    margin: 0 10px;
+}
+.lof_config_wrrapper .lof-group{
+    background:#F3F3F3!important;	
+    color:#025A8D!important;
+    border-right:#CCC solid 5px;
+    border-left:#CCC solid 5px;
+    padding:0 10px!important;
+    font-weight:bold;
+}
+.lof_config_wrrapper .lof-space-title{
+    width: 100%;
+}
+.lof_config_wrrapper .colorwell {    
+    width: 6em;
+    text-align: center;
+    cursor: pointer;
+}
+.lof_config_wrrapper .colorwell-selected {
+    border: 2px solid #000;
+    font-weight: bold;
+}
+.lof_config_wrrapper #picker{
+    position: absolute;
+    bottom: -3px;
+    right: 100px;    
+}
+.lof_config_wrrapper .it-addrow-block legend{
+    border: none;
+    background: none;
+}
+.lof_config_wrrapper .it-addrow-block .add {
+    background: url("add.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 26px;
+    text-indent: -999cm;
+    width: 26px;
+}
+.lof_config_wrrapper .it-addrow-block .row { padding:3px 0px;display:block;clear:both; cursor:hand; cursor:pointer;background: none; }
+.lof_config_wrrapper .it-addrow-block input[type=text] {float:left; width:70%}
+.lof_config_wrrapper .it-addrow-block .row .remove { display:block; float:left; background:url(remove.png) no-repeat;width:20px; height:16px;margin-left:12px}
+.lof_config_wrrapper .it-addrow-block  .add{ background:url(add.png) no-repeat;width:26px; height:26px; display:block; text-indent:-999cm; cursor:hand; cursor:pointer}
+.lof_config_wrrapper .spantext {
+    background: none repeat scroll 0 0 #888888;
+    color: #F2F2F2;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 11px 2px 8px;
+    line-height: 18px;
+}
+.lof_config_wrrapper .remove {
+    background: url("remove.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 12px;
+    width: 20px;
+}
+.lof-headding{ background:#F8F8F8; border:#CCC dotted 2px; padding:5px; font-weight:bold; color:#036 }
+.area2 {
+    position: relative;
+    height: 15px;
+    width: 180px;
+    background: #CCCCCC;
+    float:left;
+}
+.widthpreview{
+    font-weight:bold;
+    color:#FFF; margin-right:4px;
+    position:relative;
+    padding:1px 3px;
+    background:#666;
+    color:30px; float:left
+}
+.knob2 {
+    position: absolute;
+    height: 15px;
+    width:10px;
+    background:#666;
+    cursor: pointer;
+}
+.lof-cols{
+    float:left;
+    width:48%;
+    position:relative;
+}
+.lof-cols label{
+    margin: 0;
+    color:#666;
+    margin-left:5px;
+    font-weight:bold;
+}
+.lof-cols input, .lof-cols select{
+    width:97%; 
+}
+.lof-filegroup{
+    background:#f2f2f2;
+    position:relative;
+}
+.lof-fsi{
+    background:#F7F7F7!important;
+    border-bottom:#CCC solid 1px
+}
+.lof-fsi legend{
+    font-size:10px;
+    padding:0 5px;
+    color:#999!important;
+    background:#E0E0E0;
+    margin:0
+}
+.lof-container {
+    padding:1px;
+    margin-top:1px;
+    background:#F7F7F7;
+    font-size: 65%;
+}
+.lof-container:hover{
+    background:#E8F6FE;
+}
+.lof-cols{
+    line-height: 20px;
+}
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px; /*--Set height of tabs--*/
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    width: 100%;
+}
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+    line-height: 31px; /*--Vertically aligns the text within the tab--*/
+    border: 1px solid #999;
+    border-left: none;
+    margin-bottom: -1px; /*--Pull the list item down 1px--*/
+    overflow: hidden;
+    position: relative;
+    background: #e0e0e0;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: #000;
+    display: block;	
+    padding: 0 5px;
+    border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+    outline: none;
+}
+ul.tabs li a:hover {
+    background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+    background: #fff;
+    border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+    overflow: hidden;
+    clear: both;
+    float: left; width: 100%;
+}
+.tab_content {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/* JQUERY TABS */
+/* Skin */
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    background-color: #82B2E7;
+    padding: 0 !important;   
+}
+.tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+.tabs-nav li {
+    float: left;
+    min-width: 84px; /* be nice to Opera */
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0;
+
+}
+.ul.row > li:last {
+    border: none;
+}
+.tabs-nav a, .tabs-nav a span {
+    display: block;
+    padding: 0 10px; 
+}
+.tabs-nav a {
+    color: #27537A;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 2;   
+}
+.tabs-nav .tabs-selected a, .tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active {
+    background-position: 100% -150px;
+    outline: 0; /* prevent dotted border in Firefox */
+}
+.tabs-nav a, .tabs-nav .tabs-disabled a:hover, .tabs-nav .tabs-disabled a:focus, .tabs-nav .tabs-disabled a:active {
+    background-position: 100% -100px;
+}
+.tabs-nav a span {
+    width: 64px; /* IE 6 treats width as min-width */
+    min-width: 64px;
+    height: 18px; /* IE 6 treats height as min-height */
+    min-height: 18px;
+    padding-top: 6px;
+    padding-right: 0;
+}
+*>.tabs-nav a span { /* hide from IE 6 */
+    width: auto;
+    height: auto;
+}
+.tabs-nav .tabs-selected a span {
+    padding-top: 7px;
+}
+.tabs-nav .tabs-selected a span, .tabs-nav a:hover span, .tabs-nav a:focus span, .tabs-nav a:active span {
+    background-position: 0 -50px;
+}
+.tabs-nav a span, .tabs-nav .tabs-disabled a:hover span, .tabs-nav .tabs-disabled a:focus span, .tabs-nav .tabs-disabled a:active span {
+    background-position: 0 0;
+}
+.tabs-nav .tabs-selected a:link, .tabs-nav .tabs-selected a:visited, .tabs-nav .tabs-disabled a:link, .tabs-nav .tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+.tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+.tabs-nav .tabs-disabled {
+    opacity: .4;
+}
+.tabs-container {
+    padding: 0 5px;
+}
+.tabs-loading em {
+    padding: 0 0 0 20px;
+    background: url(loading.gif) no-repeat 0 50%;
+}
+.tabs-hide {
+    display: none !important;
+}
+.tabs-selected a {
+    background: none repeat scroll 0 0 #FF0080 !important;
+    border-left: 1px solid #B0D5FE;
+    border-right: 1px solid #B0D5FE;
+    color: #FFFFFF;
+    font-weight: bold !important;
+    text-shadow: 2px 1px 4px #2B2B2B;   
+}
+#tabs {
+    background-color: #F4FAE6;
+}
+.lof_group_options_header h3 {
+    color: darkblue;
+    margin: 0;
+    padding-left: 5px;
+    text-align: left;
+    text-shadow: 0 1px 10px #2B2B2B;
+    width: 160px;
+}
+
+.popup_overlay {
+    background-color: #2b2b2b;
+    opacity:0.9;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 8;
+    display: none;
+}
+#popup_container {
+    position: fixed;
+    top: 50px;
+    left: 400px;
+    z-index: 80;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    display: none;
+}
+#lof_folder_mainview {
+    background-color: #E2E2E2;
+    height: 400px;
+    margin: 10px;
+    overflow: auto;
+    padding: 10px;
+    width: 500px;
+}
+.popup_panel {
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 98%;
+}
+.popup_panel label {
+    color: #E2E2E2;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+}
+#path_info {
+    background-color: lightBlue;
+    border: 1px solid #DDDDDD;
+    color: #2B2B2B;
+    float: left;
+    font-style: italic;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    width: 79%;
+}
+.popup_browser_button {
+    background-color: #F4FAE6;
+    border: 1px outset #F4FAE6;
+    color: #2B2B2B;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 1px;
+    text-align: center;
+    text-shadow: 2px 1px 2px #ddd;
+    width: 46px;
+}
+#btn_cancel_info {
+    margin-right: 10px;
+}
+.lof_brower_button {
+    margin-left: 3px;
+    cursor: pointer;
+}
+.image_info_contain, .image_info_contain .image_info {
+    float: left;
+    
+}
+.image_info_contain .image_info {
+    background-color: lavender;
+    border: 1px solid #DDDDDD;
+    margin: 5px 0;
+    padding: 5px;
+}
+.image_info_contain .image_box {
+    border: 1px outset lavender;
+    float: left;
+    max-height: 238px;
+    overflow: hidden;
+    width: 40%;
+    position: relative;
+}
+.image_box .delete_image {
+    color: #000000;
+    font-size: 0.9em;
+    height: 20px;
+    left: 5px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.image_info_contain .image_box img, .image_info_contain .image_box label {
+    width: 100%;
+}
+.image_info_contain .info_box {
+    float: left;
+    margin-left: 20px;
+    width: 57%;
+}
+.image_info_contain .info_box input, .image_info_contain .info_box textarea {
+    width: 97% !important;
+}
+.image_info_contain .info_box label {
+    float: left;
+    font-size: 0.8em;
+    font-style: italic;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+.image_info_contain .image_box h3 {
+    background-color: #CCCCCC;
+    color: darkRed;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+#upload_list li {
+    width: 100%;
+    text-align: left;
+}
+.lof_tab .dvc-nav li a {
+    background-color: lightblue;
+    color: #999999;
+    float: left;
+    height: 30px;
+    padding: 0 5px;
+}
+.lof_tab .dvc-nav li.tabs-selected a {
+    color: lightgoldenrodyellow;
+}
+#btn_add_file {
+    background: url('btn_add_new.png') no-repeat center left;
+    color: darkred;
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-left: 30px;
+    background-size: 30px;
+}
+#btn_add_file:hover {
+    color: orangered;    
+}
+#upload_list {
+    float: left;
+    background-color: #e2e2e2;
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+#upload_list li span {
+    margin-left: 5px;
+}
+#upload_images {
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-top: 2px;  
+}
+.lof-back-office input.button {
+    cursor: pointer;    
+}
+.lof-back-office input.button:hover {
+    background-color: #FF0080;
+    text-shadow: 2px 1px 4px #2B2B2B;
+    color: lightgoldenrodyellow;
+    -moz-transition-duration: 2s;
+    -moz-transition-property: background;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-property: background; 
+}
+
+
+/* ***** LOF DEBUG *********** */
+
+.lof_display_upload_errors li {
+    width: 100%;
+    font-style: italic;
+    color: orangered;
+    padding-left: 5px;
+}
+
+.lof_display_upload_errors {
+    background-color: #E2E2E2;
+    border: 1px solid orange;
+    list-style: none outside none;
+    padding: 5px 0;
+}
+.lof_display_upload_errors li span  {
+    font-weight: bold;
+}

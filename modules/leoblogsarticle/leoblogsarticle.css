@@ -1,0 +1,82 @@
+/* leoblogsarticle  */
+#leoblogsarticletab{}
+.item_descrition {
+    display: block;
+    min-height: 40px;
+    margin: 10px 0;
+    font-size: 11px;
+}
+.blog-title {
+    position: relative;
+    margin-bottom: 10px;
+}
+	.blog-title .itemTitle {
+		font-weight: bold;
+	}
+	.blog-title:hover .itemTitle{}
+.blog-image{position:relative; overflow:hidden}
+	.blog-image .item_thumb{width:100%}
+.mask {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+	display: inline-block;
+	height: 559px;
+	position: absolute;
+	right: 755px;
+	top: 0;
+	-webkit-transform: skew(-45deg);
+	-moz-transform: skew(-45deg);
+	-o-transform: skew(-45deg);
+	-ms-transform: skew(-45deg);
+	transform: skew(-45deg);
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	-moz-transition: all 0.6s ease-in-out 0s;
+	-o-transition: all 0.6s ease-in-out 0s;
+	-ms-transition: all 0.6s ease-in-out 0s;
+	transition: all 0.6s ease-in-out 0s;
+	width: 600px;
+}
+	.blog-image:hover .mask, .item-container:hover .mask {
+		right: -600px;
+	}
+.blog-datemore {
+    border-top: 1px solid #E9E9E9;
+    clear: both;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+}
+.blog-date {
+    background: url("img/icon-clock.png") no-repeat scroll left center transparent;
+    float: left;
+    margin-left: 10px;
+    padding: 0 0 0 15px;
+}
+.blog-viewmore {
+    background: url("img/icon-viewmore.png") no-repeat scroll right 9px transparent;
+    float: right;
+    margin-right: 10px;
+    padding: 0 5px 0 0;
+}
+	.blog-viewmore a{color:#42a8bf; font-size:12px}
+	.blog-viewmore a:hover{color:#000}
+#leoblogsarticletab .carousel-button{position:relative;top:-17px}
+#leoblogsarticletab .carousel-control.right{right:0}
+	#leoblogsarticletab .carousel-control.right .icon-angle-down{
+		background: url("img/icon-nextprev.png") no-repeat scroll -22px 2px transparent;
+		float: left;
+		height: 20px;
+		margin: 6px 0 0;
+		width: 25px;
+	}
+	#leoblogsarticletab .carousel-control.left .icon-angle-up:before,
+	#leoblogsarticletab .carousel-control.right .icon-angle-down:before{content:""}
+	#leoblogsarticletab .carousel-control.right .icon-angle-down:hover{background-position:-22px -20px}
+	#leoblogsarticletab .carousel-control.left{right:34px;border-right:none}
+	#leoblogsarticletab .carousel-control.left .icon-angle-up{
+		background: url("img/icon-nextprev.png") no-repeat scroll 10px 2px transparent;
+		float: left;
+		height: 20px;
+		margin: 6px 0 0;
+		width: 25px;
+	}
+	#leoblogsarticletab .carousel-control.left .icon-angle-up:hover{background-position:10px -20px}
