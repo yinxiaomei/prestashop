@@ -1,0 +1,15 @@
+
+div.search_page{
+	text-align:center;
+	margin: 0 auto;
+	width:350px;
+	font-size:16px;
+	font-weight:bolder;
+}
+div.search_page a{
+	margin:0 10px;
+}
+
+div.search_page span{
+	margin:0 10px;
+}
